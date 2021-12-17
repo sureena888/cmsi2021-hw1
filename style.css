@@ -1,0 +1,56 @@
+.title{
+  background-color: white;
+}
+body{
+  background-color: tan;
+  background-image: url(download.jpg)
+}
+.wrapper {
+  display: flex;
+  background-image: linear-gradient(blue, dodgerBlue);
+}
+
+.wrapper > div {
+  flex: 1 1 150px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.button{
+  background-color:#f1f1f1;
+  color: black;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  display: -webkit-flex;
+  font-size: 30px;
+  
+}
+
+footer{
+  margin: 5px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  padding: 3px;
+}
+
+h1{
+  font-size: 40px;
+  text-shadow: -1px 1px 2px black;
+  transition: width 2s, transform 2s;
+  
+}
+
+h1:hover{
+  width: 400px;
+  transform: rotate(180deg);
+}
+
+
